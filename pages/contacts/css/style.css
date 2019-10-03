@@ -4638,3 +4638,17 @@ b, strong {
     min-width: 50px;
   }
 }
+.photo-wrap {
+  position: relative;
+  display: table;
+  margin: 0 auto;
+}
+.photo-wrap .photo-wrap_icons {
+  position: absolute;
+  height: 100%;
+  top: 0%;
+  right: -52px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
